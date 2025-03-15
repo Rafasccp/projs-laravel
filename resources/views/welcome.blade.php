@@ -23,9 +23,9 @@
 
         <form action='/contato' method='post'>
             {{ csrf_field() }}
-            <!-- cria um input oculto com token -->
-            <input type='text' name='nome' value=''>
-            <input type='password' name='senha' value=''>
+            <!-- cria um input oculto com token -->     
+            Nome: <input type='text' name='nome'><br><br>
+            Celular: <input type='text' name='celular'><br><br>
             <input type='submit' value='ok'>
         </form>
     </body>
