@@ -1,6 +1,7 @@
-<html>
-    <body>
-        <h3>Essa é a visao dos contatos</h3>
+@extends('layout.site')
+@section('titulo','Contatos')
+@section('conteudo')
+    <h3>Essa é a visao dos contatos</h3>
         <table border=1>
             <tr>
                 <th>Nome</th>
@@ -13,6 +14,4 @@
             </tr>
             @endforeach
         </table>
-        
-    </body>
-</html>
+@endsection
